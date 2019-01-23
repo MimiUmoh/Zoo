@@ -1,6 +1,6 @@
 module Animal
   
-   def self.live
+   def live
      puts 'the animal lives and is a breathing creature'
    end
   
@@ -9,12 +9,12 @@ module Animal
      puts 'like humans the animal eats to survive'
    end
   end 
-  
- class Speak
-   def self.speak 
+
+ 
+   def speak 
     puts 'they make noises but not the way humans do'
    end
-  end
+  
 
 end
 #Animal.live
